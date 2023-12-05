@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Luke Combs South African Tour</title>
+    <!-- Include any additional meta tags, external fonts, or scripts here inside the head -->
+</head>
+
+<body>
+    <!-- Your content goes here -->
+
+    <header>
+        <h1 class="title">South African Tour</h1>
+        <h2 class="LukeCombs">Luke Combs</h2>
+        <!-- Add logo, navigation, or other header elements here based on your figma design file-->
+    </header>
+
+    <main>
+        <!-- Use figure and figcaption for image captions -->
+        <figure>
+            <img src="Images/untitled folder/Luke Combs Cover.jpg" alt="Luke Combs" class="lukecombscover">
+            <figcaption>Luke Combs</figcaption>
+        </figure>
+
+        <img src="Images/untitled folder/SouthAfricanFlag.png" alt="South African flag" class="SouthAfricanFlag">
+        <img src="Images/untitled folder/AmericanFlag.jpg" alt="American flag">
+
+        <section>
+            <h2 class="Title">South African Tour</h2>
+            <p>Join Luke Combs for a once-in-a-lifetime musical journey through the stunning landscapes of South Africa on
+                his "Safari Serenade" Tour. Experience the magic of country music set against the backdrop of South Africa's
+                majestic wildlife and breathtaking scenery.
+            </p>
+        </section>
+
+        <section>
+            <h3 class="header">About</h3>
+
+            <!-- Move images into a figure for each artist -->
+            <figure>
+                <img src="Images/untitled folder/LaineyWilson_Sayin-What-Im-Thinkin_CVR_3000x3000-scaled.jpg"
+                    alt="Lainey Wilson Cover">
+                <figcaption>Lainey Wilson</figcaption>
+            </figure>
+
+            <p>Debut Single: Her debut single "Workin' Overtime" was released in 2018, and it helped to establish her as
+                a rising star in the country music scene.
+                <!-- Continue with the rest of the content for Lainey Wilson -->
+            </p>
+
+            <!-- Repeat the same structure for Riley Green and Morgan Wallen -->
+        </section>
+
+        <section>
+            <h3 class="header">Ticket Info</h3>
+            <!-- Add ticket images here -->
+            <p>One Day Pass: $30
+                571 South African Ran per day
+
+                Two Day Pass: $55
+
+                Three Day Pass: $80
+
+                Four Day Pass: $105
+            </p>
+        </section>
+
+        <!-- Continue with the rest of your content -->
+
+    </main>
+
+    <footer>
+        <h2>Your Footer</h2>
+        <p><em>(Example credit info)</em> Site design and development by Steven Storm for Web Design I Fall 2023 with
+            Professor Jenny Kowalski. Images by [SOURCE] and [SOURCE]</p>
+        <!-- Footer content goes here, such as copyright information, links, etc. -->
+    </footer>
+
+    <!-- Include any additional scripts or external libraries down here -->
+</body>
+
+</html>
