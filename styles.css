@@ -1,0 +1,88 @@
+/* Starting off with Josh's Custom CSS Reset https://www.joshwcomeau.com/css/custom-css-reset/ */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+/* ——————————— YOUR CSS STARTS BELOW HERE ——————————— */
+
+body {
+  background-color: peachpuff;
+}
+h1, .title {
+  font-family: wausau;
+  text-align: center;
+  font-size:  90px;
+}
+h2 {
+  font-family: colt;
+  text-align: center;
+}
+h3 {
+  font-family: colt;
+  text-align: center;
+}
+h3.header{
+  text-align: center;
+}
+p {
+font-family: Lato;
+font-size: 25px;
+margin: auto;
+}
+h2.LukeCombs {
+font-family: Colt;
+text-align: center;
+font-size: 70px;
+}
+h2.Title {
+font-family: wausau;
+text-align: center;
+font-size: 60px;
+}
+h4 {
+  font-family: colt;
+  font-size: 16px;
+  text-align: center;
+}
+h4.showlink {
+  font-family: wausau;
+}
+img{
+  margin: auto;
+}
+hr {
+  height: 5px;
+  background-color: red;
+  border-width: 0;
+}
+li{
+  font-family: lato;
+  font-size: 25px;
+  margin: auto;
+}
+div{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
